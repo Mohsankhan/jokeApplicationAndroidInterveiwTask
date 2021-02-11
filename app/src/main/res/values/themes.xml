@@ -1,0 +1,207 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+ <style name="EditText">
+        <item name="android:singleLine">true</item>
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorControlActivated">#FFFFFF</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="Theme.AppCompat.Light.NoActionBar.FullScreen.Splash" parent="Theme.AppCompat.Light.NoActionBar.FullScreen">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+    </style>
+    <style name="AppTheme.Button" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorButtonNormal">@color/colorAccent</item>
+        <item name="android:background">@android:color/holo_green_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+
+    </style>
+    <style name="LoginTextInputLayoutStyle" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="boxStrokeColor">@color/colorAccent</item>
+    </style>
+    <style name="onboarding_text_style">
+        <item name="android:visibility">visible</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="text_field_on_boarding" parent="LoginTextInputLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:pointerIcon">text</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="text_field" parent="LoginTextInputLayoutStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:gravity">center|left</item>
+    </style>
+    <style name="hwms_button">
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:alpha">0.85</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="android:background">@drawable/button_rounded_shape</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="hwms_title">
+        <item name="android:textColor">@color/green_color_picker</item>
+        <item name="android:textSize">35sp</item>
+    </style>
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/yellow_green_color_picker</item>
+        <item name="colorControlActivated">@color/orange</item>
+    </style>
+
+    <style name="cta_style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:background">@drawable/button_submit_list</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:enabled">false</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:alpha">0.85</item>
+    </style>
+
+    <style name="edit_text_field">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:gravity">center|left</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:selectAllOnFocus">true</item>
+    </style>
+
+
+    <!-- HWMS Title-->
+    <style name="HWMSTitle">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+        <item name="android:textColor">@color/on_boarding_title_color</item>
+        <item name="android:fontFamily">@font/poppins_semi_bold</item>
+    </style>
+    <style name="HWMSTitleSmall" parent="HWMSTitle">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="HWMSTitleNormal" parent="HWMSTitle">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="HWMSTitleMedium" parent="HWMSTitle">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="HWMSTitleLarge" parent="HWMSTitle">
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="HWMSTitleXLarge" parent="HWMSTitle">
+        <item name="android:textSize">30sp</item>
+    </style>
+    <!-- HWMS Description Regular-->
+    <style name="HWMSRegularDescription">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/on_boarding_title_color</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+    <style name="HWMSRegularDescriptionSmall" parent="HWMSRegularDescription">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="HWMSRegularDescriptionNormal" parent="HWMSRegularDescription">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="HWMSRegularDescriptionMedium" parent="HWMSRegularDescription">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="HWMSRegularDescriptionLarge" parent="HWMSRegularDescription">
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!-- HWMS Description Bold-->
+    <style name="HWMSBoldDescription">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+    <style name="HWMSBoldDescriptionSmall" parent="HWMSBoldDescription">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="HWMSBoldDescriptionNormal" parent="HWMSBoldDescription">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="HWMSBoldDescriptionMedium" parent="HWMSBoldDescription">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="HWMSBoldDescriptionLarge" parent="HWMSBoldDescription">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style name="HWMSRegularDescriptionFade">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/description_fade</item>
+        <item name="android:fontFamily">@font/poppins_regular</item>
+    </style>
+    <style name="HWMSRegularDescriptionFadeSmall" parent="HWMSRegularDescriptionFade">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="HWMSRegularDescriptionFadeNormal" parent="HWMSRegularDescriptionFade">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="HWMSRegularDescriptionFadeMedium" parent="HWMSRegularDescriptionFade">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="HWMSRegularDescriptionFadeLarge" parent="HWMSRegularDescriptionFade">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="onboardig_edit_field">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:gravity">center|left</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@color/on_boarding_title_color</item>
+        <item name="android:textColorHint">@android:color/darker_gray</item>
+    </style>
+
+
+</resources>

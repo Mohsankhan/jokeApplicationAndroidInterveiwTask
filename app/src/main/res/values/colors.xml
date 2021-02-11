@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue_color_picker">#0066FF</color>
+    <color name="brown_color_picker">#AF593E</color>
+    <color name="green_color_picker">#01A368</color>
+    <color name="orange_color_picker">#FF861F</color>
+    <color name="red_color_picker">#ED0A3F</color>
+    <color name="red_orange_color_picker">#FF3F34</color>
+    <color name="sky_blue_color_picker">#76D7EA</color>
+    <color name="violet_color_picker">#8359A3</color>
+    <color name="yellow_color_picker">#FBE870</color>
+    <color name="yellow_green_color_picker">#C5E17A</color>
+    <color name="tool_bg">#151414</color>
+    <color name="semi_black_transparent">#99000000</color>
+    <color name="on_boarding_bg">#E5E5E5</color>
+    <color name="selected_item_bg">#56AFFF</color>
+    <color name="selected_item_ripple">#ECF6FF</color>
+    <color name="assignment_cta_bg">#FFD6D1</color>
+    <color name="announcement_cta_bg">#F5E8FF</color>
+    <color name="pending_status_color">#CF7C00</color>
+    <color name="checked_status_color">#36CF00</color>
+    <color name="unselected_tab">#F8F8F8</color>
+    <color name="search_bg">#F8FDFF</color>
+    <color name="announcement_cta_image_bg">#D4CEF4</color>
+    <color name="make_assignment_edit_text_bg">#F4FCFF</color>
+    <color name="student_notification_bg">#F7F5FF</color>
+    <color name="blue">#ff59a9ff</color>
+    <color name="orange">#ffff900d</color>
+    <color name="bottom_background_color">#ffc4c2bc</color>
+
+    <color name="polygonViewCircleStrokeColor">#ff59a9ff</color>
+    <color name="polygonViewCircleBackground">#90e5f8ff</color>
+    <color name="on_boarding_title_color">#252E65</color>
+    <color name="cta_color">#56AFFF</color>
+    <color name="black_transparent_30">#4D000000</color>
+    <color name="splash_bg">#D5E7FF</color>
+    <color name="description_fade">#CCCCCC</color>
+</resources>

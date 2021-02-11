@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1009948790631",
+    "project_id": "jokes-application-235aa",
+    "storage_bucket": "jokes-application-235aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009948790631:android:8f8f2e83abcd8050f3a9c2",
+        "android_client_info": {
+          "package_name": "com.iks.jokesapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009948790631-21u6hq1t6g3uiubmv9emp0kipp8ptdcd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iks.jokesapplication",
+            "certificate_hash": "236c0bbfec216b096feca506196a1b81ea203fb3"
+          }
+        },
+        {
+          "client_id": "1009948790631-1j36mqpoefm4fcmmksk2bssksjfr7ifr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwo0RahmR9DKj1Vg_vLUoXeCUWDqb9qjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009948790631-1j36mqpoefm4fcmmksk2bssksjfr7ifr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

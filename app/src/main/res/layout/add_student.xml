@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_transparent_30">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/parent_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="20dp"
+        android:background="@color/white"
+        android:layout_marginHorizontal="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/top_container"
+            android:layout_width="350dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top">
+            <TextView
+                android:id="@+id/title"
+                style="@style/HWMSTitleMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Add new Joke"
+                app:layout_constraintBottom_toTopOf="@id/joke_title_field"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/>
+
+            <ImageView
+                android:id="@+id/close_button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/x_close"
+                android:padding="10dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <EditText
+                android:id="@+id/joke_title_field"
+                style="@style/HWMSRegularDescriptionSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rounded_shape_with_dark_blue"
+                android:gravity="start"
+                android:hint="Joke Title"
+                android:padding="10dp"
+                app:layout_constraintBottom_toTopOf="@id/joke_desc_field"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/title" />
+            <EditText
+                android:id="@+id/joke_desc_field"
+                style="@style/HWMSRegularDescriptionSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/rounded_shape_with_dark_blue"
+                android:gravity="start"
+                android:hint="Joke Description"
+                android:padding="10dp"
+                app:layout_constraintBottom_toTopOf="@id/add_student_cta"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/joke_title_field" />
+            <Button
+                android:id="@+id/add_student_cta"
+                style="@style/HWMSTitleNormal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:padding="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/button_submit_list"
+                android:enabled="true"
+                android:text="Add joke"
+                android:gravity="center"
+                android:textColor="@android:color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/joke_desc_field" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
